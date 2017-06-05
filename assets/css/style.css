@@ -1,5 +1,8 @@
-html {
-	background-image: url("./assets/images/parthenon.png");
+body {
+	
+	background-image: url("../images/parthenon.png") bottom no-repeat fixed;
+	
+	
 }
 
 h1.display-3 {
@@ -33,7 +36,5 @@ footer {
 	position: absolute;
 	bottom:0;
 	width:100%;
-	
-
 	
 }
