@@ -1,11 +1,12 @@
 body {
-	
+	background: transparent;
 	background-image: url("../images/parthenon.png") bottom no-repeat fixed;
+	
 	
 	
 }
 
-h1.display-3 {
+h1 {
 	font-size: 50px;
 	text-align: center;
 	padding: 0px;
@@ -31,10 +32,11 @@ p {
 }
 
 
-
 footer {
 	position: absolute;
 	bottom:0;
 	width:100%;
+
+
 	
 }
