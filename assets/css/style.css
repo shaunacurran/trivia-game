@@ -5,26 +5,26 @@ h1.display-3 {
 	font-color: #000000;
 }
 
+
 .jumbotron-fluid {
 	padding: 10px;
 	font-family: 'Caesar Dressing', cursive;
 	background: #ffffff;
 }
 
+
 .well-lg {
 	width: 550px;
 	height: 250px;
 	padding: 10px;
-	margin: 0px 350px;
+
+	/*margin: 0px 350px;*/
 	border: 0;
 }
 
-.panel-default {
-	width: 600px;
-	float: right;
-	border: 0;
-}
+
 .img-fluid {
 	max-width: 100%; 
 	height: auto;
 }
+
