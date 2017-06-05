@@ -94,7 +94,7 @@ function timerWrapper() {
 }
 
 function finalScreen() {
-	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-primary btn-lg btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
+	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>All done, here's how you did!" + "</p>" + "<p class='summary-correct'>Correct Answers: " + correctTally + "</p>" + "<p>Wrong Answers: " + incorrectTally + "</p>" + "<p>Unanswered: " + unansweredTally + "</p>" + "<p class='text-center reset-button-container'><a class='btn btn-default btn-lg btn-block reset-button' href='#' role='button'>Reset The Quiz!</a></p>";
 	$(".mainArea").html(gameHTML);
 }
 
@@ -111,10 +111,10 @@ function resetGame() {
 var startScreen;
 var gameHTML;
 var counter = 30;
-var correctAnswers = ["B. Kronos", "A. Dionysus", "A. Phobos & Deimos", "D.Maia", "C. Apollo & Artemis", "A. Troy", "B. Heracles", "C. 10"];
+var correctAnswers = ["B. Kronos", "A. Dionysus", "A. Phobos & Deimos", "D. Maia", "C. Apollo & Artemis", "A. Troy", "B. Heracles", "C. 10"];
 var questionCounter = 0;
-var selecterAnswer;
-var theClock;
+var selecterAnswer = [];
+var theClock =[];
 var correctTally = 0;
 var incorrectTally = 0;
 var unansweredTally = 0;
@@ -136,7 +136,7 @@ var answerArray = [
  		["Phobos & Deimos", "Enyo & Nike", "Nike & Eris", "Athena & Otrera"], 
  		["Semele","Hera","Leto","Maia"], 
  		["Hypnos & Thanatos", "Enyo & Ares", "Apollo & Artemis", "Phobos & Deimos"],
-  		["Troy","Greece","Neutral"],
+  		["Troy","Greece","Neutral", "Thrace"],
   		["Perseus", "Heracles", "Theseus", "Bion"],
   	  	["15","25","10","2"]
   	  	];

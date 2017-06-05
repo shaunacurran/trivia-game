@@ -1,9 +1,7 @@
 body {
 	background: transparent;
 	background-image: url("../images/parthenon.png") bottom no-repeat fixed;
-	
-	
-	
+		
 }
 
 h1 {
@@ -22,13 +20,14 @@ h1 {
 }
 
 .img-fluid {
+
 	max-width: 100%; 
 	height: auto;
 }
 
 p {
 	font-family: 'Open Sans Condensed', sans-serif;
-	margin: 15px;
+	margin: 0px;
 }
 
 
@@ -36,7 +35,5 @@ footer {
 	position: absolute;
 	bottom:0;
 	width:100%;
-
-
 	
 }
