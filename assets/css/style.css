@@ -1,8 +1,13 @@
+html {
+	background-image: url("./assets/images/parthenon.png");
+}
+
 h1.display-3 {
 	font-size: 50px;
 	text-align: center;
 	padding: 0px;
 	font-color: #000000;
+
 }
 
 
@@ -17,16 +22,17 @@ h1.display-3 {
 	height: auto;
 }
 
-.quizsection {
-	z-index: 99
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 15px;
 }
 
-h2 {
-	font-family: 'Caesar Dressing', cursive;
-}
+
+
+
 
 footer {
-	position:absolute;
+	position: absolute;
 	bottom:0;
 	width:100%;
 	
