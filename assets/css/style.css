@@ -30,10 +30,14 @@ p {
 	margin: 0px;
 }
 
-
-footer {
-	position: fixed;
-	bottom:0;
-	
+#footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: $height-footer;
 }
+  
+.footer-block {
+      margin: 20px 0;
+    }
 
