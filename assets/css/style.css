@@ -31,9 +31,9 @@ p {
 }
 
 
-/*footer {
-	position: absolute;
+footer {
+	position: fixed;
 	bottom:0;
 	
-}*/
+}
 
