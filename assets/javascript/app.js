@@ -56,6 +56,7 @@ function generateWin() {
 	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Correct! The answer is: " + correctAnswers[questionCounter];
 	$(".mainArea").html(gameHTML);
 	setTimeout(wait, 3000); 
+	
 }
 
 function generateLoss() {
@@ -63,6 +64,7 @@ function generateLoss() {
 	gameHTML = "<p class='text-center timer-p'>Time Remaining: <span class='timer'>" + counter + "</span></p>" + "<p class='text-center'>Wrong! The correct answer is: "+ correctAnswers[questionCounter];
 	$(".mainArea").html(gameHTML);
 	setTimeout(wait, 3000); 
+	
 }
 
 function generateHTML() {
@@ -121,6 +123,7 @@ var theClock =[];
 var correctTally = 0;
 var incorrectTally = 0;
 var unansweredTally = 0;
+
 
 var questionArray = [
 "Who did Zeus overthrow to claim his throne as King of the Gods?", 
